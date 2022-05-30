@@ -2997,7 +2997,7 @@ footer: "Farbot",
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
-title:"Farbot Qris ( Donate )",
+title:"Farbot Command ( Menu )",
 body: "Farbot", 
 thumbnail: fs.readFileSync("worker/media/image/Deff.jpg"),
 mediaType:1,
@@ -3765,7 +3765,7 @@ let buttons = [
 let buttonMessage = {
 video: {url:res.medias[1].url},
 caption: texttk,
-footer: "© Farbot-Md",
+footer: "Farbot-Md",
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
