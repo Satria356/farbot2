@@ -799,8 +799,7 @@ ${bracketmenu} _Search_ ${F}
 ▣ ${prefix}pinterest 
 ▣ ${prefix}layarkaca-search 
 ${bracketmenu} _Convert_ ${F}
-▣ ${prefix}sticker 
-▣ ${prefix}smeme 
+▣ ${prefix}sticker  
 ▣ ${prefix}stickerwm 
 ▣ ${prefix}tomp3 
 ▣ ${prefix}tovn 
@@ -2897,8 +2896,8 @@ for (let yoi of anu) {
 await sleep(1500)
 let btn = [{
 urlButton: {
-displayText: 'Source Code',
-url: 'https://github.com/DEFF1602'
+displayText: 'Myweb',
+url: 'https://bit.ly/Fardev78.com'
 }
 }, {
 urlButton: {
@@ -2976,8 +2975,7 @@ ${bracketmenu} _Search_ ${F}
 ▣ ${prefix}pinterest 
 ▣ ${prefix}layarkaca-search 
 ${bracketmenu} _Convert_ ${F}
-▣ ${prefix}sticker 
-▣ ${prefix}smeme 
+▣ ${prefix}sticker  
 ▣ ${prefix}stickerwm 
 ▣ ${prefix}tomp3 
 ▣ ${prefix}tovn 
@@ -3068,7 +3066,7 @@ content: [{ tag: "invite", attrs: { code: vcc } }]
 sizny = res.content[0].attrs.size
 if (sizny < 50) {
 teks = `Maaf anggota group anda kurang dari 50, minimal agar bot join harus mempunyai lebih dari 50 anggota`
-sendOrder(m.chat, teks, "667140254502463", fs.readFileSync('./worker/media/image/Deff.jpg'), 2022, "DEFF~MD", "6289501060783@s.whatsapp.net", "AR6NCY8euY5cbS8Ybg5Ca55R8HFSuLO3qZqrIYCT7hQp0g==", "99999999999999999999")
+sendOrder(m.chat, teks, "667140254502463", fs.readFileSync('./worker/media/image/Deff.jpg'), 2022, "Farbot~Md", "6283811034750@s.whatsapp.net", "AR6NCY8euY5cbS8Ybg5Ca55R8HFSuLO3qZqrIYCT7hQp0g==", "99999999999999999999")
 } else if (sizny > 50) {
 await sock.groupAcceptInvite(vcc).then(async(res) => ads(jsonformat(res))).catch(_ => _)
 ads("Succes")
@@ -3765,11 +3763,11 @@ let buttons = [
 let buttonMessage = {
 video: {url:res.medias[1].url},
 caption: texttk,
-footer: "Farbot-Md",
+footer: "© FARRBOT ~ FDEV",
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
-title:"Deff Official ~ Tiktok Downloader",
+title:"Farr Official ~ Tiktok Downloader",
 body:res.title,
 thumbnail: log0,
 mediaType:1,
@@ -3788,7 +3786,7 @@ case prefix+'ttad': {
 if (isBan) return ads(mess.ban)
 let res = await aiovideodl(args[0])
 sock.sendMessage(from, {audio:{url:res.medias[2].url}, mimetype:"audio/mp4", ptt:true, contextInfo:{externalAdReply:{
-title:"Deff Official ~ Tiktok Downloader",
+title:"Farr Official ~ Tiktok Downloader",
 body:res.title,
 thumbnail: log0,
 mediaType:1,
@@ -3814,11 +3812,11 @@ let buttons = [
 let buttonMessage = {
 video: {url:res.medias[0].url},
 caption: texttk,
-footer: "© Farbot-md",
+footer: "© FARRBOT ~ FDEV",
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
-title:"Deff Official ~ Tiktok Downloader",
+title:"Farr Official ~ Tiktok Downloader",
 body:res.title,
 thumbnail: log0,
 mediaType:1,
