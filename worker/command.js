@@ -2929,8 +2929,7 @@ ads('Sukses Broadcast')
 addCmd(command.slice(1), 1, commund)
 break
 case prefix+'menu': case prefix+'help': case prefix+'bot': case prefix+'command': case prefix+'cek': case prefix+'up': case prefix+'fitur': case prefix+'list': {
-sock.sendMessage(from, { audio: fs.readFileSync('worker/media/audio/lagu.mp3'), mimetype: 'audio/mp4', ptt: true}, {quoted: msg})
-teks = `「Farbot ~ Md」`
+teks = `「Farbot ~ Md」
 Hai kak👋
 *I Am Farbot Coded By Fardev*
 
@@ -2986,7 +2985,7 @@ ${bracketmenu} _Convert_ ${F}
 ▣ ${prefix}togif 
 ▣ ${prefix}tourl 
 ▣ ${prefix}tomp4 
-▣ ${prefix}toimage 
+▣ ${prefix}toimage`
 let buttons = [
 {buttonId: `${prefix}allmenu`, buttonText: {displayText: 'allmenu'}, type: 1}
 ]
